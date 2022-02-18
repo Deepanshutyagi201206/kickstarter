@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.first-sub-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 2vw;
+}
+.first-sub-header ul li{
+    display: inline-block;
+}
+.first-sub-header ul li a{
+    display: block;
+    text-decoration: none;
+    margin-right: 1vw;
+    color: black;
+}
+.first-sub-header ul li a:hover{
+    color: #0a693d;
+}
+.first-sub-header .input-section .search i{
+    font-size: 1.1vw;
+    margin-left: .2vw;
+}
+.first-sub-header .logo-section{
+    color: #07ea81;
+}
+
+.second-sub-header{
+    border: .1vw solid #e2e2e2;
+    border-right: 0px;
+    border-left: 0px;
+    padding: 1.5vw;
+}
+.second-sub-header ul{
+    display: flex;
+    grid-column-gap: 3vw;
+    justify-content: center;
+}
+.second-sub-header ul li{
+    list-style: none;
+}
+.second-sub-header ul li a{
+    display: block;
+    text-decoration: none;
+    color: #999797;
+    transition: all 2s;
+    border-bottom: .2vw solid white;
+}
+.second-sub-header ul li a:hover{
+    transition: all 2s;
+    border-bottom: .2vw solid grey;
+}
+
+/*featured-recommended-section*/
+.featured-recommended-section{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    padding: 1.8vw;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.featured-recommended-section .featured-section{
+    border-right: .1vw solid #e2e2e2;
+}
+.featured-recommended-section .featured-section,
+.featured-recommended-section .recommended-section{
+    padding: 2vw 4vw;
+}
+.featured-recommended-section .featured-section img{
+    max-width:100%;
+    height: auto;
+}
+
+.featured-recommended-section .recommended-section li{
+    list-style: none;
+}
+.featured-recommended-section .recommended-section a{
+    border-bottom: .1vw solid #e2e2e2;
+    padding: 1vw;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    grid-column-gap: 1vw;
+    text-decoration: none;
+    color: black;
+}
+.featured-recommended-section .recommended-section img{
+    width: 13vw;
+    height: auto;
+}
